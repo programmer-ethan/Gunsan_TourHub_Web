@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="css/reset14.css">
     <link rel="stylesheet" href="css/style14.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- 웹 폰트 -->
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
 </head>
@@ -82,7 +86,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container" style="width: 50%;">
+                <div class="container" style="width: 70%;">
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -147,5 +151,21 @@
         <!-- //footer -->
     </div>
     <!-- //wrap -->
+    <script>
+        $(function(){
+        // 이미지 슬라이드 컨트롤를 사용하기 위해서는 carousel를 실행해야한다.
+        $('#carouselExampleCaptions').carousel({
+        // 슬리아딩 자동 순환 지연 시간
+        // false면 자동 순환하지 않는다.
+        interval: 1000,
+        // hover를 설정하면 마우스를 가져대면 자동 순환이 멈춘다.
+        pause: "hover",
+        // 순환 설정, true면 1 -> 2가면 다시 1로 돌아가서 반복
+        wrap: true,
+        // 키보드 이벤트 설정 여부(?)
+        keyboard : true
+        });
+        });
+        </script>
 </body>
 </html>
