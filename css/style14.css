@@ -8,9 +8,9 @@
 
 /* 레이아웃 */
 #wrap {}
-#header {height: 325px; background: url(../img/header_bg.jpg)center top repeat-x;}
+#header {height: 325px; background: url(../images/sunyu2.jpg);}
 #contents {}
-#footer {height: 200px; background: #333;}
+#footer {height: 100px; background: #333;}
 
 /* 컨텐츠 레이아웃 */
 #cont_nav {}
@@ -27,7 +27,7 @@
 .header .header-menu a:hover {color: #666;}
 .header .header-tit {text-align: center;}  
 .header .header-tit h1 {background-color: #4aa8d4; font-size: 28px; padding: 5px 20px 6px 20px; display: inline-block; color: #fff; margin-top: 40px; font-weight: normal; text-transform: uppercase;}
-.header .header-tit a {display: inline-block; background-color: #2698cb; font-size: 18px; color: #fff; padding: 5px 20px 6px 20px; margin-top: -5px;}
+.header .header-tit a {display: inline-block; background-color: #2698cb; font-size: 30px; color: #fff; padding: 5px 20px 6px 20px; margin-top: -5px;}
 .header .header-icon {text-align: center; margin-top: 30px;}
 .header .header-icon a {width: 60px; height: 60px; display: inline-block; background: url(../img/icon.png); margin: 0 3px;}
 .header .header-icon a.icon1 {background-position: 0 0;}
