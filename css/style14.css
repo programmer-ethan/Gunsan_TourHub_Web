@@ -8,7 +8,7 @@
 
 /* 레이아웃 */
 #wrap {}
-#header {height: 325px; background: url(../images/sunyu2.jpg);}
+#header {height: 325px; background: url(../images/island1.jpg); background-repeat: no-repeat}
 #contents {}
 #footer {height: 100px; background: #333;}
 
@@ -26,8 +26,8 @@
 .header .header-menu a {color: #fff; padding: 10px 0px 10px 13px; display: inline-block;}
 .header .header-menu a:hover {color: #666;}
 .header .header-tit {text-align: center;}  
-.header .header-tit h1 {background-color: #4aa8d4; font-size: 28px; padding: 5px 20px 6px 20px; display: inline-block; color: #fff; margin-top: 40px; font-weight: normal; text-transform: uppercase;}
-.header .header-tit a {display: inline-block; background-color: #2698cb; font-size: 30px; color: #fff; padding: 5px 20px 6px 20px; margin-top: -5px;}
+.header .header-tit h1 {background-color: #4aa8d4; font-size: 32px; padding: 5px 20px 6px 20px; display: inline-block; color: #fff; margin-top: 40px; font-weight: normal; text-transform: uppercase;}
+.header .header-tit a {display: inline-block; background-color: #78c5e9; font-size: 30px; color: #fff; padding: 5px 20px 6px 20px; margin-top: -5px;}
 .header .header-icon {text-align: center; margin-top: 30px;}
 .header .header-icon a {width: 60px; height: 60px; display: inline-block; background: url(../img/icon.png); margin: 0 3px;}
 .header .header-icon a.icon1 {background-position: 0 0;}
@@ -56,3 +56,14 @@
 .nav > div ol li {float: left; width: 50%;}
 .nav > div.last ol li {width: 100%;}
 .nav > div ol li a:hover {text-decoration: underline;}
+
+
+ul { background-color: #FFDAB9; list-style-type: none; margin: 0; padding: 0; overflow: hidden; }
+
+li { float: left; }
+
+li a { display: block; background-color: #FFDAB9; color: #000000; padding: 8px; text-decoration: none;
+
+    text-align: center; font-weight: bold; }
+
+li a:hover { background-color: #CD853F; color: white; }
