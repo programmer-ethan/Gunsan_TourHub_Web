@@ -47,8 +47,10 @@
                 </div>
                 <div class="container">
                     <img src="./images/why.jpg"
-                    alt="the location of tour hub" style="width: 70%; margin-top: 30px; margin-bottom: 30px;">
+                    alt="the location of tour hub" style="width: 90%; margin-top: 30px; margin-bottom: 30px;">
+                    <div id="daumRoughmapContainer1631511281383" class="root_daum_roughmap root_daum_roughmap_landing"></div>
                 </div>
+                
                 <div class="container" style=" margin-bottom: 30px; font-size: 15px;">
                     <span style="font-weight:bold">'군산관광허브'</span>란, 군산 방문객 중 50%의 비중을 차지하는 <span style="font-weight:bold">고군산군도</span>
                     와 철길마을, 군산 근대 역사 박물관 등 군산을 대표하는 주요 관광지들이 분포하는 
@@ -71,5 +73,16 @@
         <!-- //footer -->
     </div>
     <!-- //wrap -->
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1631511281383",
+		"key" : "27cgx",
+		"mapWidth" : "640",
+		"mapHeight" : "360"
+	}).render();
+</script>
 </body>
 </html>
