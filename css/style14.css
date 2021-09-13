@@ -67,3 +67,5 @@ li a { display: block; background-color: #FFDAB9; color: #000000; padding: 8px; 
     text-align: center; font-weight: bold; }
 
 li a:hover { background-color: #CD853F; color: white; }
+
+.tab { white-space: pre; }
